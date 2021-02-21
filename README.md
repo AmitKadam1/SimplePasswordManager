@@ -26,6 +26,17 @@ REQUIRED LIBRARIES: (Please install the following libraries before running the s
 - subprocess
 - getpass
 
+INSTRUCTIONS (PLEASE READ CAREFULLY)
+ - Make sure all the above libraries are installed in your python environment
+ - Open up SimplePassMngr.py in text editor and change set a Master password present on line no 24.
+ - Use Pyinstaller to convenrt SimplePassMngr to EXE. 
+ - Make sure the below files are present in the same folder where the final SimplePassMngr.exe is present
+ - ProcessChecker.exe
+ - data1.db.aes
+ - TimeChecker.exe
+Antivirus may Flag the code as virus due to encryption libraries, But it is all clean.
+
+All Done. CHOW..!
 
 The Master password can be changed at line no 24 of SimplePassMngr.py
  24. coded_str = "Your Master Password Goes here" 
